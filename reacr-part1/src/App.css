@@ -40,3 +40,12 @@
 .read-the-docs {
   color: #888;
 }
+
+/* App.jsx */
+
+.student{
+  margin: 10px;
+  padding: 5px;
+  border-radius: 20px;
+  border: 2px solid salmon;
+}
