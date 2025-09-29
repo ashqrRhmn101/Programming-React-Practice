@@ -1,0 +1,40 @@
+[
+  {
+    "id": 1,
+    "name": "Basic",
+    "price": 9.99,
+    "currency": "USD",
+    "duration": "per month",
+    "features": [
+      "Access to basic features",
+      "5 projects",
+      "Email support"
+    ]
+  },
+  {
+    "id": 2,
+    "name": "Pro",
+    "price": 19.99,
+    "currency": "USD",
+    "duration": "per month",
+    "features": [
+      "Access to all basic features",
+      "Unlimited projects",
+      "Priority email support",
+      "Team collaboration"
+    ]
+  },
+  {
+    "id": 3,
+    "name": "Enterprise",
+    "price": 49.99,
+    "currency": "USD",
+    "duration": "per month",
+    "features": [
+      "All Pro features included",
+      "Dedicated account manager",
+      "24/7 phone & chat support",
+      "Custom integrations"
+    ]
+  }
+]
