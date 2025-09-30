@@ -1,0 +1,9 @@
+.root{
+    display: flex;
+    align-items: center;
+    gap: 25px;
+    border: 2px solid;
+    padding: 50px;
+    margin-top: 10px;
+    background-color:cadetblue ;
+}
