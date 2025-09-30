@@ -1,0 +1,7 @@
+ td{
+    border: 2px solid salmon;
+    padding: 5px;
+}
+thead ,th{
+     border: 2px solid goldenrod;
+}
