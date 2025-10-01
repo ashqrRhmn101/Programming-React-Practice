@@ -1,13 +1,13 @@
 import React from "react";
 import Cousin from "./Cousin";
 
-const Aunt = () => {
+const Aunt = ({asset}) => {
   return (
     <div>
       <h3>Aunt</h3>
       <section className="flex">
         <Cousin name="Tom Tom" />
-        <Cousin name="jo jo" />
+        <Cousin asset={asset} name="jo jo" />
       </section>
     </div>
   );
