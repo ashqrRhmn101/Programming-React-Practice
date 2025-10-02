@@ -1,9 +1,13 @@
-import React from "react";
+import React, { use } from "react";
 import { Link, NavLink } from "react-router";
 import "./Nav.css";
 import ThemeToggle from "./ThemeToggle/ThemeToggle";
+import { ShoppingCart } from "lucide-react";
+import { CartContext } from "../Provider/CartContext";
 
 const Navbar = () => {
+  const { cart } = use(CartContext);
+
   return (
     <div className="navbar bg-base-100 shadow-sm">
       <div className="navbar-start">
@@ -38,9 +42,25 @@ const Navbar = () => {
             <li>
               <NavLink to="/contact">Contact</NavLink>
             </li>
+            <li>
+              <NavLink to="/cart" className="relative">
+                <div>
+                  <ShoppingCart />
+                  <p className="absolute top-0 right-35">{cart.length}</p>
+                </div>
+              </NavLink>
+            </li>
           </ul>
         </div>
         <a className="btn btn-ghost text-xl">Ar.</a>
+        
+            <NavLink to="/cart" className="relative mx-auto">
+            <div>
+              <ShoppingCart />
+              <p className="absolute -top-2 -right-4">{cart.length}</p>
+            </div>
+          </NavLink>
+          
       </div>
       <div className="navbar-center hidden lg:flex">
         <ul className="menu menu-horizontal px-1">
@@ -52,6 +72,14 @@ const Navbar = () => {
           </li>
           <li>
             <NavLink to="/contact">Contact</NavLink>
+          </li>
+          <li>
+            <NavLink to="/cart" className="relative">
+              <div>
+                <ShoppingCart />
+                <p className="absolute top-0 right-0">{cart.length}</p>
+              </div>
+            </NavLink>
           </li>
         </ul>
       </div>
