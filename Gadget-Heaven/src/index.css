@@ -1,0 +1,14 @@
+@import "tailwindcss";
+@plugin "daisyui" {
+  themes: light --default, dark ,prefersdark, cupcake;
+}
+
+:root{
+  background-color: #ECECEC;
+}
+
+a.active{
+  /* background-color: #9538E2; */
+  color: #9538E2;
+}
+

@@ -1,0 +1,146 @@
+[
+  {
+    "id": 1,
+    "name": "Samsung Galaxy S23 Ultra",
+    "price": 1199.99,
+    "stock": "In Stock",
+    "category": "Phone",
+    "description": "Flagship smartphone with 200MP camera and Snapdragon 8 Gen 2 processor.",
+    "specification": [
+      "200MP Camera",
+      "12GB RAM",
+      "512GB Storage",
+      "6.8-inch AMOLED 120Hz Display",
+      "5000mAh Battery"
+    ],
+    "rating": 4.9
+  },
+  {
+    "id": 2,
+    "name": "Dell XPS 13",
+    "price": 1399.99,
+    "stock": "In Stock",
+    "category": "Laptop",
+    "description": "Ultra-slim, high-performance laptop with 13.4-inch Infinity Edge display.",
+    "specification": [
+      "Intel i7 11th Gen",
+      "16GB RAM",
+      "512GB SSD",
+      "Touchscreen",
+      "Windows 11 Pro"
+    ],
+    "rating": 4.8
+  },
+  {
+    "id": 3,
+    "name": "Apple iPhone 15 Pro Max",
+    "price": 1299.0,
+    "stock": "In Stock",
+    "category": "Phone",
+    "description": "Apple’s latest iPhone with titanium body and A17 Pro Bionic chip.",
+    "specification": [
+      "6.7-inch Super Retina XDR Display",
+      "A17 Pro Chip",
+      "8GB RAM",
+      "256GB Storage",
+      "48MP Main Camera"
+    ],
+    "rating": 4.7
+  },
+  {
+    "id": 4,
+    "name": "Lenovo Legion 5 Pro",
+    "price": 1599.99,
+    "stock": "Out of Stock",
+    "category": "Laptop",
+    "description": "Powerful gaming laptop with advanced cooling and high refresh display.",
+    "specification": [
+      "AMD Ryzen 7 5800H",
+      "16GB RAM",
+      "1TB SSD",
+      "RTX 3070 GPU",
+      "16-inch 165Hz QHD Display"
+    ],
+    "rating": 4.6
+  },
+  {
+    "id": 5,
+    "name": "Sony WH-1000XM5",
+    "price": 399.99,
+    "stock": "In Stock",
+    "category": "Accessory",
+    "description": "Industry-leading noise-canceling wireless headphones.",
+    "specification": [
+      "30 Hours Battery",
+      "ANC",
+      "Bluetooth 5.2",
+      "Touch Controls",
+      "USB-C Charging"
+    ],
+    "rating": 4.9
+  },
+  {
+    "id": 6,
+    "name": "Asus ROG Phone 7",
+    "price": 999.0,
+    "stock": "In Stock",
+    "category": "Phone",
+    "description": "Gaming smartphone with ultimate performance and cooling system.",
+    "specification": [
+      "Snapdragon 8 Gen 2",
+      "16GB RAM",
+      "512GB Storage",
+      "6000mAh Battery",
+      "165Hz AMOLED Display"
+    ],
+    "rating": 4.7
+  },
+  {
+    "id": 7,
+    "name": "Apple MacBook Air M2",
+    "price": 1199.99,
+    "stock": "In Stock",
+    "category": "Laptop",
+    "description": "Lightweight and powerful MacBook with Apple M2 chip.",
+    "specification": [
+      "Apple M2 Chip",
+      "8GB RAM",
+      "256GB SSD",
+      "13.6-inch Liquid Retina Display",
+      "MagSafe Charging"
+    ],
+    "rating": 4.8
+  },
+  {
+    "id": 8,
+    "name": "HP Spectre x360",
+    "price": 1349.99,
+    "stock": "Out of Stock",
+    "category": "Laptop",
+    "description": "Premium 2-in-1 convertible laptop with OLED touchscreen.",
+    "specification": [
+      "Intel i7 12th Gen",
+      "16GB RAM",
+      "1TB SSD",
+      "13.5-inch OLED Touchscreen",
+      "360° Hinge Design"
+    ],
+    "rating": 4.6
+  },
+  {
+    "id": 9,
+    "name": "OnePlus 11",
+    "price": 799.99,
+    "stock": "In Stock",
+    "category": "Phone",
+    "description": "Flagship killer smartphone with powerful performance and fast charging.",
+    "specification": [
+      "Snapdragon 8 Gen 2",
+      "12GB RAM",
+      "256GB Storage",
+      "5000mAh Battery",
+      "100W Fast Charging"
+    ],
+    "rating": 4.5
+  }
+]

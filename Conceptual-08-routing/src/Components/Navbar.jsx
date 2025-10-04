@@ -53,14 +53,15 @@ const Navbar = () => {
           </ul>
         </div>
         <a className="btn btn-ghost text-xl">Ar.</a>
-        
-            <NavLink to="/cart" className="relative mx-auto">
-            <div>
+
+        <div>
+          <NavLink to="/cart" className="relative mx-auto">
+            <div className="md:hidden">
               <ShoppingCart />
               <p className="absolute -top-2 -right-4">{cart.length}</p>
             </div>
           </NavLink>
-          
+        </div>
       </div>
       <div className="navbar-center hidden lg:flex">
         <ul className="menu menu-horizontal px-1">
