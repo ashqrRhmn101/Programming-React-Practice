@@ -1,4 +1,4 @@
-const getStoreBook = () => {
+const getWishlistStoreBook = () => {
   const storeBookSTR = localStorage.getItem("readList");
 
   if (storeBookSTR) {
@@ -9,8 +9,8 @@ const getStoreBook = () => {
   }
 };
 
-const addToStored = (id) => {
-  const storedBookData = getStoreBook();
+const addToWishListStored = (id) => {
+  const storedBookData = getWishlistStoreBook();
 
   if (storedBookData.includes(id)) {
     alert("added");
@@ -22,4 +22,4 @@ const addToStored = (id) => {
   }
 };
 
-export { addToStored, getStoreBook };
+export { addToWishListStored, getWishlistStoreBook };

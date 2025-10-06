@@ -1,6 +1,7 @@
 import React from "react";
 import { useLoaderData, useParams } from "react-router";
 import { addToStored } from "../Utility/addToList";
+import { addToWishListStored } from "../Utility/WishList";
 
 const BookDetails = () => {
   const { id } = useParams();
@@ -22,9 +23,12 @@ const BookDetails = () => {
     rating,
   } = singleBook;
 
-// HandleClick ()
+  // HandleClick ()
   const handleClick = (id) => {
     addToStored(id);
+  };
+  const handleWishlistClick = (id) => {
+    addToWishListStored(id);
   };
   return (
     <div className="card lg:card-side bg-base-100 shadow-sm my-8 gap-8 py-5">
@@ -70,7 +74,10 @@ const BookDetails = () => {
           <button onClick={() => handleClick(id)} className="btn">
             Read
           </button>
-          <button onClick={() => handleClick()} className="btn bg-sky-500">
+          <button
+            onClick={() => handleWishlistClick(id)}
+            className="btn bg-sky-500"
+          >
             Wishlist
           </button>
         </div>
