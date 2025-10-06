@@ -4,6 +4,7 @@ import Home from "../Pages/Home";
 import Products from "../Pages/Products";
 import ErrorPage from "../Pages/ErrorPage";
 import ProductDetails from "../Pages/ProductDetails";
+import WishList from "../Pages/WishList";
 
 const router = createBrowserRouter([
   {
@@ -24,6 +25,10 @@ const router = createBrowserRouter([
       {
         path: "/productDetails/:id",
         Component: ProductDetails,
+      },
+      {
+        path: "/wishList",
+        Component: WishList,
       },
     ],
   },

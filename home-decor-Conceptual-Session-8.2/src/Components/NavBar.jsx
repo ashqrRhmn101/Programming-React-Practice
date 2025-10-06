@@ -33,6 +33,9 @@ const NavBar = () => {
             <li>
               <NavLink to="/products">Products</NavLink>
             </li>
+            <li>
+              <NavLink to="/wishList">Wish List</NavLink>
+            </li>
           </ul>
         </div>
         <Link to="/" className="btn btn-ghost text-xl">
@@ -48,6 +51,9 @@ const NavBar = () => {
             </li>
             <li>
               <NavLink to="/products">Products</NavLink>
+            </li>
+            <li>
+              <NavLink to="/wishList">Wish List</NavLink>
             </li>
           </ul>
         </div>
